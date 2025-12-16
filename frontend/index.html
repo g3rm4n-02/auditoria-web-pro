@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Auditoría Web - Agencia</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="site-header">
+    <div class="container">
+      <h1>Auditoría Web Profesional</h1>
+      <p>Mejoramos tu página para convertir visitantes en clientes.</p>
+      <nav><a href="#servicios">Servicios</a> • <a href="#portfolio">Portfolio</a> • <a href="#contacto">Contacto</a></nav>
+    </div>
+  </header>
+
+  <main class="container">
+    <section id="servicios">
+      <h2>Servicios</h2>
+      <ul>
+        <li>Auditoría SEO</li>
+        <li>Auditoría UX/UI</li>
+        <li>Auditoría de velocidad</li>
+      </ul>
+    </section>
+
+    <section id="portfolio">
+      <h2>Portafolio</h2>
+      <p>Casos de éxito y ejemplos aquí.</p>
+    </section>
+
+    <section id="contacto">
+      <h2>Contacto</h2>
+      <form id="contactForm">
+        <label>Nombre<input type="text" id="name" required></label>
+        <label>Email<input type="email" id="email" required></label>
+        <label>Mensaje<textarea id="message" rows="4" required></textarea></label>
+        <button type="submit">Enviar</button>
+        <p id="status" aria-live="polite"></p>
+      </form>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">© 2025 Auditoría Web</div>
+  </footer>
+
+<script src="app.js"></script>
+</body>
+</html>

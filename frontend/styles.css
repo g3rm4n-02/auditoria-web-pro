@@ -1,0 +1,11 @@
+:root{--accent:#0b5fff;--bg:#f7f9fc;--card:#ffffff}
+*{box-sizing:border-box}body{font-family:Inter,system-ui,Arial,sans-serif;margin:0;background:var(--bg);color:#0b1b2b}
+.container{max-width:980px;margin:0 auto;padding:24px}
+.site-header{background:linear-gradient(90deg,var(--accent),#06b6d4);color:white;padding:36px 0;text-align:center}
+h1{margin:0;font-size:28px}
+h2{font-size:20px;margin-top:0}
+#contacto form{display:grid;gap:10px;max-width:600px}
+label{display:flex;flex-direction:column;font-size:14px}
+input,textarea{padding:10px;border:1px solid #e2e8f0;border-radius:6px;font-size:14px}
+button{background:var(--accent);color:white;border:none;padding:12px;border-radius:8px;cursor:pointer}
+.site-footer{padding:16px;text-align:center;color:#64748b;margin-top:36px;background:transparent}

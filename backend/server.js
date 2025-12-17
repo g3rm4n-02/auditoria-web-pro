@@ -107,5 +107,9 @@ app.get('*', (req, res) => {
   res.sendFile(path.join(__dirname, '../frontend/index.html'));
 });
 
-const PORT = process.env.PORT || 3000;
-app.listen(PORT, () => console.log('Server listening on', PORT));
+const PORT = process.env.PORT || 3000; // Render asigna el puerto automáticamente
+app.listen(PORT, () => {
+  console.log(`Servidor escuchando en el puerto ${PORT}`);
+});
+
+

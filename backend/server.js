@@ -6,7 +6,7 @@ const nodemailer = require('nodemailer');
 const dotenv = require('dotenv');
 const cors = require('cors');
 const helmet = require('helmet');
-const Database = require('better-sqlite3');
+const Database = require('sqlite3');
 const bcrypt = require("bcryptjs");
 const jwt = require('jsonwebtoken');
 

@@ -16,8 +16,6 @@ app.use(helmet());
 app.use(cors());
 app.use(bodyParser.json());
 app.use(express.static(path.join(__dirname, '../frontend')));
-
-const db = new Database(path.join(__dirname, 'data.db'));
 // Inicializar tabla users si no existe
 db.prepare(`CREATE TABLE IF NOT EXISTS users (
   id INTEGER PRIMARY KEY AUTOINCREMENT,
